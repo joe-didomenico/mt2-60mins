@@ -1,0 +1,41 @@
+p.ul {
+    color: blue;
+    text-align: center;
+    size: 20pt;
+}
+
+div.fb-parent {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    border: 5px solid orange;
+    width: 400px;
+    align-self: center;
+}
+
+div.fb-child {
+    margin: 10px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+div.in {
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+div#btn {
+    margin: 10px 0 0 0;
+}
+
+div#hidden {
+    margin: 20px 0 0 0;
+    visibility: hidden;
+    /* border: 1px solid black; */
+}
+
+div#center {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
